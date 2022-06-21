@@ -2,7 +2,7 @@
 $paragrafo = "Dio non esiste, Dio non è causa dei tuoi problemi";
 
 $badword = "Dio";
-$newParagrafo = str_replace($badword, "***",$paragrafo);
+$newParagrafo = str_replace($badword, "****",$paragrafo);
 ?>
 
 

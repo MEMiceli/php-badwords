@@ -1,8 +1,9 @@
 <?php
 $paragrafo = "Dio non esiste, Dio non è causa dei tuoi problemi";
 
-$badword = "Dio";
-$newParagrafo = str_replace($badword, "****",$paragrafo);
+// $badword = $_GET['name'];
+// $badword = "Dio";
+$newParagrafo = str_replace($_GET['name'], "***",$paragrafo);
 ?>
 
 
